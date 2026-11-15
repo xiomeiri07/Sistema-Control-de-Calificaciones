@@ -120,7 +120,8 @@ int main() {
 
 		cout << "\nDesea procesar otro grupo? (s/n): " << endl;
 		cin >> respuesta;
-
+		
+      //'while' permite repetir el programa completo mientras el usuario responda 's' o 'S'.
 	} while (respuesta == 's' || respuesta == 'S');
 
 	cout << "Programa finalizado." << endl;
